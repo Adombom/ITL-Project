@@ -18,7 +18,7 @@ _awayFromBuilding = {
 	params ["_coords", "_distFromBuildings"];
 	_nearestBuilding = nearestBuilding _coords;
 	_buildingDistActual = _coords distance2D (getPos _nearestBuilding);
-	_buildingDistActual > _distFromBuildings-
+	_buildingDistActual > _distFromBuildings;
 };
 
 for "_i" from 0 to 600 do 
