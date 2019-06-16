@@ -28,7 +28,7 @@ for "_i" from 0 to 600 do
 	if (_awayFrmBldgBool) then
 	{
 		//Move camera into position if it's away from buildings
-		["Paste", ["Enoch",_generatedCoords,(random 360),0.75,[0.192782,8.41937e-006],0,0,600,(random 1),1,.0.8,0,1]] call BIS_fnc_camera;
+		["Paste", ["Enoch",_generatedCoords,(random 360),0.75,[0.192782,8.41937e-006],0,0,600,(random 1),1,0.8,0,1]] call BIS_fnc_camera;
 		//Sleep before taking screenshot. This allows the LODs to fully pop in and teaxtures to load.
 		sleep 5;
 		screenshot "";
