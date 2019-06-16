@@ -21,7 +21,7 @@ _awayFromBuilding = {
 	_buildingDistActual > _distFromBuildings-
 };
 
-for "_i" from 0 to 400 do 
+for "_i" from 0 to 600 do 
 {
 	_generatedCoords = [] call _generateRandCoords;
 	_awayFrmBldgBool = [_generatedCoords, _distFromBuildings] call _awayFromBuilding;
